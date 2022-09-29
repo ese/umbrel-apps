@@ -1,0 +1,21 @@
+version: "3.7"
+
+services:
+
+  app_proxy:
+    environment:
+      APP_HOST: $APP_ZIGBEE2MQTT_IP
+      APP_PORT: 1883
+      PROXY_AUTH_ADD: "false"
+
+  zigbee2mqtt:
+    image: koenkk/zigbee2mqtt
+    volumes:
+      - ${APP_DATA_DIR}/data:/app/data
+    devices:
+      /dev/ttyUSB0:/dev/ttyACM0
+    ports:
+      - 8080:8080
+    networks:
+      default:
+        ipv4_address: $APP_ZIGBEE2MQTT_IP
