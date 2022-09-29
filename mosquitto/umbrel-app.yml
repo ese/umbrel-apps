@@ -26,7 +26,7 @@ website: https://mosquitto.org/
 dependencies: []
 repo: https://github.com/eclipse/mosquitto
 support: https://mqtt.org/
-port: 8083
+port: 11883
 gallery:
   - 1.jpg
   - 2.jpg
