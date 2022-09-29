@@ -1,0 +1,39 @@
+manifestVersion: 1
+id: mosquitto
+category: Automation
+name: Mosquitto
+version: ""
+tagline: Message broker implemeting MQTT protocol
+description: >-
+  Open source home automation that puts local control and privacy
+  first, powered by a worldwide community of tinkerers and DIY enthusiasts. Home
+  Assistant integrates with over a thousand different devices and services. Once
+  you have integrated all your devices at home, you can unleash Home Assistant’s
+  advanced automation engine to make your home work for you. Examples: 
+
+  Eclipse Mosquitto is an open source (EPL/EDL licensed) message broker that 
+  implements the MQTT protocol versions 5.0, 3.1.1 and 3.1. Mosquitto is 
+  lightweight and is suitable for use on all devices from low power single board 
+  computers to full servers.
+
+  The MQTT protocol provides a lightweight method of carrying out messaging using 
+  a publish/subscribe model. This makes it suitable for Internet of Things 
+  messaging such as with low power sensors or mobile devices such as phones, 
+  embedded computers or microcontrollers.
+
+developer: Eclipse Foundation
+website: https://mosquitto.org/
+dependencies: []
+repo: https://github.com/eclipse/mosquitto
+support: https://mqtt.org/
+port: 8083
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+torOnly: false
+releaseNotes: >-
+  https://github.com/eclipse/mosquitto/blob/master/ChangeLog.txt
