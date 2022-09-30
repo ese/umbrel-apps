@@ -11,7 +11,7 @@ website: https://www.zigbee2mqtt.io/
 dependencies: []
 repo: https://github.com/Koenkk/zigbee2mqtt
 support: https://github.com/Koenkk/zigbee2mqtt
-port: 8080
+port: 8765
 gallery:
   - 1.jpg
   - 2.jpg
