@@ -13,7 +13,6 @@ services:
     volumes:
       - ${APP_DATA_DIR}/data:/mosquitto
       - ${APP_DATA_DIR}/mosquitto.conf:/mosquitto/config/mosquitto.conf
-      - ${APP_DATA_DIR}/password.txt:/mosquitto/config/password.txt
     ports:
       - 1883:1883
       - 9001:9001   
