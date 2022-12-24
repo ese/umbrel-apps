@@ -1,0 +1,20 @@
+version: "3.7"
+
+services:
+	
+  app_proxy:
+    environment:
+      APP_HOST: ese-duckdns-duckdns_1
+      APP_PORT: 17777
+
+
+  duckdns:
+    image: lscr.io/linuxserver/duckdns:latest
+    container_name: duckdns
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - LOG_FILE=false
+    volumes:
+      - ${APP_DATA_DIR}/config:/config
+    restart: unless-stopped

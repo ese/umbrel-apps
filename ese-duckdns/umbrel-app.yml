@@ -1,0 +1,22 @@
+manifestVersion: 1
+id: ese-duckdns
+category: Network
+name: Duckdns
+version: ""
+tagline: Duckdns free dynamic DNS hosted on AWS
+description: >-
+  DuckDNS enable a way to update a DNS which is helpful for servers
+  behind dynamic IP
+
+developer: duckdns
+website: https://www.duckdns.org
+dependencies: []
+support: https://www.duckdns.org
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+torOnly: false
