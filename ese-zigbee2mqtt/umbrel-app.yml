@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: zigbee2mqtt
+id: ese-zigbee2mqtt
 category: Automation
 name: Zigbee2MQTT
 version: ""

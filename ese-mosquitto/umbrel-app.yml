@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: mosquitto
+id: ese-mosquitto
 category: Automation
 name: Mosquitto
 version: ""
