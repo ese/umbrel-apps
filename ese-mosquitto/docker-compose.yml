@@ -9,7 +9,7 @@ services:
       PROXY_AUTH_ADD: "false"
 
   mosquitto:
-    image: eclipse-mosquitto
+    image: eclipse-mosquitto:2.0.15
     volumes:
       - ${APP_DATA_DIR}/data:/mosquitto
       - ${APP_DATA_DIR}/mosquitto.conf:/mosquitto/config/mosquitto.conf
