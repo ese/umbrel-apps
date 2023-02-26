@@ -4,7 +4,7 @@ services:
 
   app_proxy:
     environment:
-      APP_HOST: mosquitto_server_1
+      APP_HOST: ese-mosquitto_server_1
       APP_PORT: 1883
       PROXY_AUTH_ADD: "false"
 
