@@ -1,6 +1,7 @@
 manifestVersion: 1
 id: ese-duckdns
 category: Network
+icon: https://svgshare.com/i/xtp.svg
 name: Duckdns
 version: ""
 tagline: Duckdns free dynamic DNS hosted on AWS

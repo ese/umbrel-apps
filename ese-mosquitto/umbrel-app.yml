@@ -2,6 +2,7 @@ manifestVersion: 1
 id: ese-mosquitto
 category: Automation
 name: Mosquitto
+icon: https://svgshare.com/i/xtC.svg
 version: ""
 tagline: Message broker implemeting MQTT protocol
 description: >-

@@ -1,6 +1,7 @@
 manifestVersion: 1
 id: ese-zigbee2mqtt
 category: Automation
+icon: https://svgshare.com/i/xrn.svg
 name: Zigbee2MQTT
 version: ""
 tagline: Zigbee2MQTT
