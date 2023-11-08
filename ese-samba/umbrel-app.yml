@@ -1,0 +1,22 @@
+manifestVersion: 1
+id: ese-samba
+category: Network
+icon: https://svgshare.com/i/xtp.svg
+name: Samba
+version: ""
+tagline: File sharing through samba
+description: >-
+  Since 1992, Samba has provided secure, stable and fast file and print services for all clients using the SMB/CIFS protocol, such as all versions of DOS and Windows, OS/2, Linux and many others.
+
+developer: samba
+website: https://github.com/dperson/samba/
+dependencies: []
+support: https://github.com/dperson/samba/
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+torOnly: false

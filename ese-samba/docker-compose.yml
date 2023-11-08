@@ -1,0 +1,10 @@
+version: "3.7"
+
+services:
+  server:
+    image: dperson/samba
+    network_mode: host
+    restart: on-failure
+    command: ["-s", "public;/mount"]
+    volumes:
+      - /home/umbrel/umbrel/data/storage/:/mount
